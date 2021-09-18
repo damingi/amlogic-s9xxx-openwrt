@@ -55,14 +55,11 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #
 # ------------------------------- Other ends -------------------------------
 
-#增加插件甜糖luci-app-ttnode
+#增加插件
+#甜糖luci-app-ttnode
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
-#增加插件luci-app-argon-config
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
-
-#替换主题luci-theme-argon
-rm -rf package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#灵提游戏加速器
+git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
 
 
 
