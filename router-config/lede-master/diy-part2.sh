@@ -58,8 +58,3 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #增加插件
 #甜糖luci-app-ttnode
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
-#灵提游戏加速器
-git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
-
-
-
